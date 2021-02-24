@@ -2,128 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{
-    font-family: myFontBold;
-    src: url(https://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBi8Jpg.woff2);
-}
-@font-face{
-    font-family: myFontRegular;
-    src: url(https://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBi8Jpg.woff2);
-}
-body{
-        color: #363a3f;
-        line-height: 20px;
 
-}
-*{
+* {
     box-sizing: border-box;
 }
-.center{
-@apply flex justify-center items-center
-}
-.maxWidth{
+.maxwidth {
     max-width: 490px;
-    max-height: 463px;
 }
-.one_rem{
-
-font-size: 16px;}
-
-.pixel_65{
-    line-height: 65px;
-}
-.font_size{
-    font-size: 22px;
-}
-.logo{
+.lineheight {
     line-height: 44px;
 }
-h1,h2,h3,h4,h5,h6{
+.lineheight1 {
+    line-height: 65px;
+}
+.fontsize {
+    font-size: 22px;
+}
+.letterspacing {
+    letter-spacing: 0.5px;
+}
+.border {
+    border: 0;
+}
+.lineheight2 {
+    line-height: inherit;
+}
 
+.background-image {
+    background-image: url("https://uploads-ssl.webflow.com/5b81fefd46483eeb175e34ad/5b8859314e310c6af502bbab_Hero%20Pic.jpg");
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin-bottom: 10px;
 }
-.regularFont{
-    font-family:'Work Sans' 
-}
-.boldFont{
-        font-family: 'myFontBold';
-    
-}
-.fontFamily{
-     font-family: 'Work Sans', sans-serif;
-}
-.f_weight{
-font-weight: 700;
-}
-.maxWidth1080{
-    max-width: 1080px;
 
-}
-.ptpb{
-    padding-top: 180px;
-    padding-bottom: 180px;
-}
-.color{
-    color: #636363;
-}
-.volunteer{
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-}
-.font32px{
-    font-size: 32px;
-}
-.ptb-120px{
-padding-top: 120px;
-padding-bottom: 120px;
-
-}
-.bg-clr{
-    background-image: linear-gradient(180deg, #d5f7ff, #d5f7ff);;
-}
-.bg-img{
-    background-image: linear-gradient(180deg, #ffefd5, #ffefd5);
-
-}
-
-.twoImages{
-    min-height: 1px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.paragraph {
-    line-height: 22px;
-    text-align: center;
-}
-.backPosition{
-    background-position: 50% 50%;
-}
-.colorWhite{
-    color: #fff;
-}
-.spacing{
-    letter-spacing: 1.4px;
-}
-.line-height-65px{
-    line-height: 65px;
-}
-.letter-spacing5{
-letter-spacing: .5px;
-line-height: inherit;
-}
-.backColor{
-    color:#222;
-}
-a{
-    color: inherit;
-}
-.max480{
-    max-width: 480px;
-}
-.font38{
-    font-size: 38px;
-    line-height: 44px;
-    margin-top: 20px;
+.font {
+    font-family: 'Work Sans', sans-serif;
+    color: #363a3f;
 }
