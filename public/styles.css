@@ -31222,6 +31222,36 @@ h1, h2, h3, h4, h5, h6 {
   color: #363a3f;
 }
 
+.padding {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.maxwidth1 {
+  max-width: 1080px;
+}
+
+.verticalalign {
+  vertical-align: middle;
+}
+
+.letterspacing1 {
+  letter-spacing: 1.4px;
+}
+
+.color {
+  color: #636363;
+}
+
+.fontsize1 {
+  font-size: 32px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

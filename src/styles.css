@@ -27,17 +27,37 @@
 .lineheight2 {
     line-height: inherit;
 }
-
 .background-image {
     background-image: url("https://uploads-ssl.webflow.com/5b81fefd46483eeb175e34ad/5b8859314e310c6af502bbab_Hero%20Pic.jpg");
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin-bottom: 10px;
 }
-
 .font {
     font-family: 'Work Sans', sans-serif;
     color: #363a3f;
+}
+.padding {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+.maxwidth1 {
+    max-width: 1080px;
+}
+.verticalalign {
+    vertical-align: middle;
+}
+.letterspacing1 {
+    letter-spacing: 1.4px;
+}
+.color {
+    color: #636363;
+}
+.fontsize1 {
+    font-size: 32px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
 }
