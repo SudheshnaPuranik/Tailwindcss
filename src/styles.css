@@ -61,3 +61,13 @@ p {
     margin-top: 0;
     margin-bottom: 10px;
 }
+.padding1 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.background-image1 {
+    background-image: linear-gradient(180deg, #ffefd5, #ffefd5);
+}
+.background-image2 {
+    background-image: linear-gradient(180deg, #d5f7ff, #d5f7ff);
+}
